@@ -1,0 +1,83 @@
+.popup-video{display:none}
+.popup-video .video-bg{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#000;opacity:.5;filter:alpha(opacity=50);z-index:99}
+.popup-video .video-box{position:fixed;top:50%;left:50%;width:750px;height:500px;margin:-270px 0 0 -375px;z-index:100}
+.popup-video .video-box .btn-close-video{position:absolute;top:-60px;right:-60px;width:40px;height:40px;background:url("http://source.midea.com/mideaWebPc/icon-close.png") no-repeat center;cursor:pointer}
+.popup-video .video-box .video-box-container{width:100%;height:100%}
+#video_logo{display:none}
+@media screen and (max-width:1366px){.popup-video .video-box .btn-close-video{top:0}
+}
+body{background:#fff}
+.pink{background-color:#fae1d2}
+.green{background-color:#daecda}
+.blue{background-color:#ccdef5}
+.index-banner{overflow:hidden}
+.index-banner .swiper-slide{height:890px;background-position:center;background-repeat:no-repeat;position:relative}
+.index-banner .swiper-pagination{bottom:5%;z-index:2}
+.index-banner .swiper-pagination .swiper-pagination-bullet{width:63px;height:3px;background:#fff;opacity:1;border-radius:0}
+.index-banner .swiper-pagination .swiper-pagination-bullet-active{background:#269bd0}
+.index-banner .text{position:absolute;top:50%;margin-top:-126px;color:#fff;width:40%;opacity:0;-webkit-transition:all .8s ease-in-out;-moz-transition:all .8s ease-in-out;-o-transition:all .8s ease-in-out;-ms-transition:all .8s ease-in-out;transition:all .8s ease-in-out;transform:translate(100px,0);-webkit-transform:translate(100px,0);-moz-transform:translate(100px,0);-o-transform:translate(100px,0);-ms-transform:translate(100px,0)}
+.index-banner .text .title{font-size:60px}
+.index-banner .text .desc{font-size:16px;padding:35px 0;line-height:1.8}
+.index-banner .text .btn{background:#1881d2;color:#fff}
+.index-banner .swiper-slide-active .text{opacity:1;transform:translate(0,0);-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-o-transform:translate(0,0);-ms-transform:translate(0,0)}
+.block-1{overflow:hidden;background:#fafafa;padding:2% 0}
+.block-1 img{width:100%;height:auto;display:block}
+.block-1 a{overflow:hidden}
+.block-1 .container{position:relative}
+.block-1 .l{width:45%}
+.block-1 .l a{display:block;overflow:hidden;margin-right:10px}
+.block-1 .r{width:55%;position:absolute;right:0;top:0;height:100%}
+.block-1 .r .r-news{position:relative}
+.block-1 .r .r-news a{margin-top:5px;display:block;position:relative}
+.block-1 .r .r-news.top a{margin-bottom:5px;margin-top:0}
+.block-1 .r .r-news .news-top{position:absolute;top:0;left:0;width:100%;height:100%;color:#fff}
+.block-1 .r .r-news .news-top .news-bg{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.4);background-color:#000 \9;opacity:.3 \9;filter:alpha(opacity=40);display:none}
+.block-1 .r .r-news .news-top .news-context{position:absolute;bottom:0;left:0;z-index:99;padding:30px 5% 20px;width:90%}
+.block-1 .r .r-news .news-top .news-context .news-title{font-size:30px;line-height:40px;font-weight:normal;padding-bottom:15px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;padding-left:1px;padding-right:1px}
+.block-1 .r .r-news .news-top .news-context p{font-size:16px;line-height:26px;display:none}
+.block-1 .r .top{overflow:hidden}
+.block-2{position:relative}
+.block-2 .hover{height:635px;background-image:url("http://source.midea.com/mideaWebPc/temp/block-2-bg.jpg");background-position:center;background-repeat:no-repeat;position:relative}
+.block-2 .hover .text{position:absolute;font-size:40px;color:#fff;text-align:center;top:15%;width:100%}
+.block-2 .hover .play-btn{width:70px;height:70px;display:block;background-image:url('http://source.midea.com/mideaWebPc/about-brand-16.png');position:absolute;top:40%;left:50%;margin-top:-35px;margin-left:-35px;cursor:pointer}
+.block-2 .b2-item{margin-top:-250px;position:relative}
+.block-2 .b2-item ul{overflow:hidden;width:100%;padding-bottom:10px}
+.block-2 .b2-item ul li{width:32.5%;margin-left:1%;float:left;box-shadow:0 1px 24px 0 rgba(197,197,197,0.13)}
+.block-2 .b2-item ul li:first-child{margin-left:0}
+.block-2 .b2-item ul li .pic{overflow:hidden}
+.block-2 .b2-item ul li .pic img{width:100%;height:auto}
+.block-2 .b2-item ul li .text{padding:20px;background-color:#fff}
+.block-2 .b2-item ul li .text .title{font-size:30px;color:#333;padding-bottom:10px}
+.block-2 .b2-item ul li .text .desc{font-size:16px;color:#333}
+.block-2 .b2-item ul li a:hover .text .title{color:#0193d8}
+.block-2 .b2-item ul li a:hover .text .desc{color:#0193d8}
+.link{padding:100px 0}
+.link .container{overflow:hidden}
+.link ul{overflow:hidden;width:101%}
+.link ul li{width:24%;margin-right:1%;float:left;position:relative;overflow:hidden}
+.link ul li .pic{overflow:hidden}
+.link ul li .pic img{width:100%;height:auto;-webkit-transform:scale(1);-moz-transform:scale(1);-o-transform:scale(1);transform:scale(1);transition:all .8s linear;-webkit-transition:all .8s linear;-moz-transition:all .8s linear;-o-transition:all .8s linear}
+.link ul li a:hover .pic img{-webkit-transform:scale(1.05);-moz-transform:scale(1.05);-o-transform:scale(1.05);transform:scale(1.05)}
+.link ul li .text{text-align:center;font-size:24px;color:#fff;line-height:1}
+.link ul li .text .text-bg{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.3);background-color:#000 \9;filter:alpha(opacity=30) \9;z-index:5}
+.link ul li .text .text-cont{position:absolute;width:100%;top:28%;z-index:9}
+.link ul li .text .text-cont .img-box img{text-align:center;display:block;margin:0 auto 5px;transition:all .5s linear}
+.link ul li .text .text-cont h3{font-weight:normal;font-size:24px;line-height:36px;margin-top:10px}
+.link ul li .text .text-cont p{font-size:16px;line-height:24px}
+.partner{background:#fff;padding:40px 0;margin-bottom:50px}
+.partner .p-title{font-size:30px;color:#000;padding-bottom:40px;text-align:center}
+.partner ul{overflow:hidden;text-align:center;font-size:0}
+.partner ul li{width:14.2%;display:inline-block;*display:inline;*zoom:1;*width:14.1%}
+.partner ul li a{display:block;border-left:1px solid #e5e5e5;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;text-align:center}
+.partner ul li:first-child a{border-left:0}
+.partner ul li img{width:auto;height:120px;display:inline-block}
+@media screen and (max-width:1366px){a{color:#000}
+.index-banner .text .desc{padding:20px 0}
+.block-1 .r .r-news .news-top .news-context .news-title{line-height:1.6;padding-bottom:5px}
+.block-2 .hover{height:525px}
+.block-2 .hover .text{top:12%}
+.block-2 .hover .play-btn{top:35%}
+.link{padding:50px 0}
+.partner{padding:20px 0}
+.popup-video .video-box .btn-close-video{top:0}
+}
